@@ -1,6 +1,0 @@
----
-    default: -p chrome -p json -p pretty
-    ci: -p headless -p json -p pretty
-    json: --format json --out=logs/report.json
-    pretty: --format pretty
-    progress: --format progress
