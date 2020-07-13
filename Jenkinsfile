@@ -8,7 +8,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Construir ou Resolver Dependencias!'
+                sh 'gem install nikogiri'
                 sh 'bundle install'
+                
             }
         }
         stage('Test') {
