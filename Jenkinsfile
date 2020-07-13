@@ -4,8 +4,7 @@ pipeline {
             image 'ruby'
         }
     }
-
-    stage {
+    stages {
         stage('Build') {
             steps {
                 echo 'Construir ou Resolver Dependencias!'
