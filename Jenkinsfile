@@ -1,5 +1,5 @@
 pipeline {
-    agen any
+    agent any
 
     stage {
         stage('Build') {
@@ -11,6 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Rodando testes de regressao'
+
             }
         }
         stage('UAT') {
