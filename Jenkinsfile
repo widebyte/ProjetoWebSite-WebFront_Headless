@@ -8,7 +8,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Construir ou Resolver Dependencias!'
-                sh 'gem install nokogiri -v 1.6.8'
+                sh 'gem install nokogiri -v 1.10.10'
                 sh 'bundle install'
                 
             }
